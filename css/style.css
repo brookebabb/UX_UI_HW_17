@@ -1,0 +1,297 @@
+
+header {
+    display: flex;
+}
+
+#logo{
+    margin-left: 100%;
+    margin-top: 27px;
+    justify-content: flex-start;
+}
+
+hr {
+    color: #000000 16%;
+}
+
+nav { 
+    justify-content: flex-end;
+    width: 100% 
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.margin-contact {
+    margin-right: 5%;
+}
+
+aside {
+    width: 13px;
+    padding: 62px 20px 20px 20px;
+    margin-left: 198px;
+    display: inline-block;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+#profile-margin {
+    margin-left: 18%;
+    justify-content: flex-start;
+}
+
+.flex-left {
+    justify-content: flex-end;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 7%;
+    background-color: #98cfc3;
+    max-width: 350px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+p {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+.top_para_margin-top {
+    margin-top: 6%;
+    padding-left: 50px;
+    line-height: 25px;
+    margin-right: 15%;
+    max-width: 600px;
+}
+
+.para_margin-top {
+    margin-top: 2%;
+    line-height: 25px;
+    padding-left: 50px;
+    margin-right: 15%;
+    max-width: 600px;
+}
+
+.para_margin-bottom {
+    padding-bottom: 15%;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.h4_skills {
+    margin-top: 7%;
+    width: 300px;
+}
+
+
+ .padding-skills_section {
+    padding-top: 5%;
+    margin-left: 15%;
+    justify-content: center;
+}
+
+
+ul {
+    flex-direction: column;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 18px;
+    font-weight:lighter;
+    margin-top: 3%;
+    line-height: 22px;
+    width: 14%;
+    padding-bottom: 10%;
+}
+
+li {
+    align-items: column;
+    width: 150%;
+    list-style-type: disc;
+}
+
+/* .padding_left_10 {
+    padding-left: 5%;
+  } */                          
+  
+.padding_left_5 {
+    padding-left: 8%;        
+  }
+
+ .grid_quotes {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% auto auto;
+    grid-template-rows: 70% 30%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    justify-content: center;
+    grid-template-areas: 
+    " h4 quote1 quote2"
+    "h4 person1 person1";
+}
+
+.h4_quotes {
+    text-align: left;
+    align-self: center;
+    padding-right: 20%;
+    grid-area: h4; 
+}
+
+.quote1 {
+    grid-area: quote1;
+    margin-left: 12%;
+    width: 70%;
+}
+
+.quote2 {
+    padding-left: 10%;
+    grid-area: quote2;
+    width: 70%;
+}
+
+.person1 {
+    padding-top: 5%;
+    margin-left: 12%;
+    width: 70%;
+}
+
+.person2 {
+    width: 70%;
+    padding-left: 10%;
+}
+
+.instagram {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.instagram_pics {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50% 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    
+    grid-template-areas: 
+    " IG_pic_1 IG_pic_2 IG_pic_3"
+    "IG_pic_4 IG_pic_5 IG_pic_6";
+}
+
+.IG_pic_1 { 
+    grid-area: IG_pic_1;
+    width: 265px;
+    height: 265px;
+    object-fit: cover;
+}
+
+.IG_pic_2 {
+    grid-area: IG_pic_2;
+    width: 265px;
+    height: 265px;
+    object-fit: cover;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.IG_pic_3 {
+    grid-area: IG_pic_3;
+    width: 265px;
+    height: 265px;
+    object-fit: cover;
+}
+
+.IG_pic_4 {
+    grid-area: IG_pic_4;
+    width: 265px;
+    height: 265px;
+    object-fit: cover;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.IG_pic_5 {
+    grid-area: IG_pic_5;
+    width: 265px;
+    height: 265px;
+    object-fit: cover;
+}
+
+.IG_pic_6 {
+    grid-area: IG_pic_6;
+    width: 265px;
+    height: 265px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #F0F0F0;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.footer_like_what_you_see {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+h6 {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 35px;
+    font-weight:lighter;
+    margin-left: 57px;
+    padding-top: 6px;
+}
+
+.footer_img {
+    margin-left: 57px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.copyright {
+    margin-left: 57px;
+    padding-top: 40px;
+}
+
+.copyright_font {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 12px;
+    font-weight:lighter;
+    display: inline-block;
+}
+
+button {
+    border-style: none;
+}
+
+.button_right {
+    text-align: right;
+    padding-right: 2%;
+}
